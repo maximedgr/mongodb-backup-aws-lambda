@@ -1,0 +1,34 @@
+{
+  "name": "mongodb-backup-aws-lambda",
+  "version": "1.0.0",
+  "description": "Backup your MongoDB database hosted on MongoDB Atlas using mongodump, AWS Lambda functions and S3 buckets.",
+  "main": "index.js",
+  "dependencies": {
+    "adm-zip": "^0.5.10",
+    "aws-sdk": "^2.1423.0",
+    "axios": "^1.7.2",
+    "dayjs": "^1.11.9"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maximedgr/mongodb-backup-aws-lambda.git"
+  },
+  "keywords": [
+    "mongodb",
+    "mongodump",
+    "aws",
+    "lambda",
+    "s3",
+    "backup",
+    "atlas"
+  ],
+  "author": "maximedgr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maximedgr/mongodb-backup-aws-lambda/issues"
+  },
+  "homepage": "https://github.com/maximedgr/mongodb-backup-aws-lambda#readme"
+}
